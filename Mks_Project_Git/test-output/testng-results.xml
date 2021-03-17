@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29680" started-at="2021-03-17T15:37:51Z" finished-at="2021-03-17T15:38:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29680" started-at="2021-03-17T15:37:51Z" finished-at="2021-03-17T15:38:21Z">
+      <class name="pkgGitTest.OrangeHRM">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:pkgGitTest.OrangeHRM@3a079870]" name="verifyTitle" duration-ms="12179" started-at="2021-03-17T21:07:51Z" finished-at="2021-03-17T21:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="loginApplication()[pri:0, instance:pkgGitTest.OrangeHRM@3a079870]" name="loginApplication" duration-ms="9292" started-at="2021-03-17T21:08:03Z" depends-on-methods="pkgGitTest.OrangeHRM.verifyTitle" finished-at="2021-03-17T21:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="verifyAfterLogin()[pri:0, instance:pkgGitTest.OrangeHRM@3a079870]" name="verifyAfterLogin" duration-ms="14" started-at="2021-03-17T21:08:13Z" depends-on-methods="pkgGitTest.OrangeHRM.loginApplication" finished-at="2021-03-17T21:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAfterLogin -->
+        <test-method status="PASS" signature="logoutFromApp()[pri:0, instance:pkgGitTest.OrangeHRM@3a079870]" name="logoutFromApp" duration-ms="2213" started-at="2021-03-17T21:08:13Z" depends-on-methods="pkgGitTest.OrangeHRM.verifyAfterLogin" finished-at="2021-03-17T21:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="verifyAfterLogout()[pri:0, instance:pkgGitTest.OrangeHRM@3a079870]" name="verifyAfterLogout" duration-ms="5947" started-at="2021-03-17T21:08:15Z" depends-on-methods="pkgGitTest.OrangeHRM.logoutFromApp" finished-at="2021-03-17T21:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAfterLogout -->
+      </class> <!-- pkgGitTest.OrangeHRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
