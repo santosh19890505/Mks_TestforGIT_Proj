@@ -80,6 +80,8 @@ public class OrangeHRM {
 		  System.out.println("Test5 is failed");
 	  }
 	  
+	  System.out.println("This testing is for Git Change");
+	  
 	  Thread.sleep(5000);
 	  driver.quit();
   }
